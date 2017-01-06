@@ -1,0 +1,14 @@
+{
+  "name": "discord-simple-framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/SimpleFramework.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "opl",
+  "license": "ISC",
+  "dependencies": {
+    "discord.io": "^2.3.0"
+  }
+}
