@@ -9,6 +9,7 @@ const SimpleFramework = require('discord-simple-framework');
 
 var bot = new SimpleFramework({
 	discord: {
+        autorun: true, // Connect the bot as soon as possible
 		token: 'xxx', // Your bot token
 		shard: [0, 1] // Shard
     },
