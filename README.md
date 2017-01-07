@@ -20,6 +20,7 @@ var bot = new SimpleFramework({
 bot.addCommand('ping', {
 	description: 'Responds with pong', // Description for the command. Can be used to generate help messages
 	channelCooldown: 5000, // Allow using this command only once every 5 seconds per channel
+	channelReplyCooldown: 30000, // Additionally, the reply will be sent in a DM if executed more than once in 30 seconds
 	handler: event => event.reply('Pong!') // Reply in the channel the message was sent
 })
 
