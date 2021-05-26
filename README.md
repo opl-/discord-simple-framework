@@ -1,7 +1,7 @@
 ## About
-This repository contains a simple framework for Discord based on [Discord.io](https://github.com/izy521/discord.io). It currently implements an argument parser and a command handler with support for subcommands.
+This repository contains a simple framework for Discord based on [Discord.js](https://github.com/discordjs/discord.js). It currently implements an argument parser and a command handler with support for subcommands.
 
-This library runs only on Node.js v6 and newer.
+This library runs only on Node.js v12 and newer.
 
 ## Examples
 ```javascript
@@ -9,10 +9,10 @@ const SimpleFramework = require('discord-simple-framework');
 
 var bot = new SimpleFramework({
 	discord: {
-        autorun: true, // Connect the bot as soon as possible
+		autorun: true, // Connect the bot as soon as possible
 		token: 'xxx', // Your bot token
 		shard: [0, 1] // Shard
-    },
+	},
 	prefixes: ['$', '#BOT_MENTION# '], // Bot will react to messages starting with $ and it's mention followed by space
 	userCooldown: 1000 // Global cooldown for each user
 });
