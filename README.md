@@ -13,7 +13,7 @@ var bot = new SimpleFramework({
 		token: 'xxx', // Your bot token
 		shard: [0, 1] // Shard
 	},
-	prefixes: ['$', '#BOT_MENTION# '], // Bot will react to messages starting with $ and it's mention followed by space
+	prefixes: ['$', '#BOT_MENTION# '], // Bot will react to messages starting with $ and its mention followed by space
 	userCooldown: 1000 // Global cooldown for each user
 });
 
